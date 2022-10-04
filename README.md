@@ -1,5 +1,5 @@
 # DEEM
-The codes for "context-guided entropy minimization for semi-supervised domain adaptation"
+The codes for "context-guided entropy minimization for semi-supervised domain adaptation". The work can be downloaded from [here](https://doi.org/10.1016/j.neunet.2022.07.011).
 
 ## Env setting
     Python=3.8
@@ -7,7 +7,7 @@ The codes for "context-guided entropy minimization for semi-supervised domain ad
     torchvision=0.8.1  
 
 ## Dataset setting
- 1. All datasets can be seen in https://github.com/VisionLearningGroup/SSDA_MME. After these dataset are downloaded, please bulid a new folder named ./data/ and put the dataset into it.
+ 1. All datasets can be seen in [MME](https://github.com/VisionLearningGroup/SSDA_MME). After these dataset are downloaded, please bulid a new folder named ./data/ and put the dataset into it.
 2. To specify your dataset path, please set "project_root" in return_dataset.py
 
 ## Training usages
