@@ -7,8 +7,8 @@ The codes for "context-guided entropy minimization for semi-supervised domain ad
     torchvision=0.8.1  
 
 ## Dataset setting
- All datasets can be seen in https://github.com/VisionLearningGroup/SSDA_MME. After these dataset are downloaded, please bulid a new folder at ./data/.
-To specify your dataset path, please set "project_root" in return_dataset.py
+ 1. All datasets can be seen in https://github.com/VisionLearningGroup/SSDA_MME. After these dataset are downloaded, please bulid a new folder named ./data/ and put the dataset into it.
+2. To specify your dataset path, please set "project_root" in return_dataset.py
 
 ## Training usages
 Training on Office-31:
