@@ -24,12 +24,12 @@ The codes for "context-guided entropy minimization for semi-supervised domain ad
 2. To specify your dataset path, please set "project_root" in return_dataset.py
 
 ## Training usages
-Training on Office-31:
+Training on Office-31 on 1-shot SSDA:
 
-        python main.py --dataset Office-31 --s webcam --t amazon --gpu_id 0 --train 1
-Test on Office-31:
+        python main.py --num 1 --dataset Office-31 --s webcam --t amazon --gpu_id 0 --train 1
+Test on Office-31 1-shot SSDA:
 
-        python main.py --dataset Office-31 --s webcam --t amazon --gpu_id 0 --train 0
+        python main.py --num 1 --dataset Office-31 --s webcam --t amazon --gpu_id 0 --train 0
 
 The other datasets follow the similar usages!
 
