@@ -6,7 +6,7 @@ The codes for "context-guided entropy minimization for semi-supervised domain ad
     Pytorh=1.7.0 (py3.8_cuda11.0.221)
     torchvision=0.8.1  
 
-##Dataset setting
+## Dataset setting
  All datasets can be seen in https://github.com/VisionLearningGroup/SSDA_MME. After these dataset are downloaded, please bulid a new folder at ./data/.
 To specify your dataset path, please set "project_root" in return_dataset.py
 
